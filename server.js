@@ -2,7 +2,7 @@ const express = require("express")
 const mongoose = require("mongoose")
 const Product = require("./modules/productModule.js")
 
-// Node Product API 
+// Product API 
 
 const app = express()
 app.use(express.json())
